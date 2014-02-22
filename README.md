@@ -24,10 +24,9 @@ $ apt-get install imagemagick
 ```bash
 $ npm install
 ```
+###Usage: scricon [options]
 
 ```bash
-
-  Usage: scricon [options]
 
   Options:
 
@@ -51,4 +50,4 @@ $ npm install
 		icon: 		icon.png
 		dest: 		phonegap/www/res/
 
-```
+``
