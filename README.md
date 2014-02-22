@@ -7,7 +7,7 @@ Generates Icons or Screen Images for Phonegap Build, from an existing image.
 ```bash
 $ npm install -g scricon
 ```
-**dependencies**
+####dependencies
 
     * Imagemagick
 
