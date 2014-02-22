@@ -19,11 +19,6 @@ On Ubuntu
 $ apt-get install imagemagick
 ```
 
-* Install node dependencies
-
-```bash
-$ npm install
-```
 ###Usage: scricon [options]
 
 ```bash
