@@ -39,7 +39,6 @@ $ npm install
 
   Examples:
 
-
     $ scricon -c path/to/your/config.xml -t screen
     //creating icons
     $ scricon -c path/to/your/config.xml -i path/to/your/icon.png  -d path/to/your/destPath`-t icon
