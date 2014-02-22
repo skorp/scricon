@@ -1,0 +1,35 @@
+{
+  "name": "scricon",
+  "version": "0.0.1",
+  "description": "Generates Icons or Screen Images for Phonegap Build, from an existing image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skorp/scricon.git"
+  },
+  "keywords": [
+    "phonegap",
+    "icons",
+    "screen",
+    "splashscreen",
+    "phonegap",
+    "build",
+    "icon"
+  ],
+  "author": "Kadir Oezdemir <ko@webberz.at>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/skorp/scricon/issues"
+  },
+  "homepage": "https://github.com/skorp/scricon",
+  "devDependencies": {
+    "commander": "~2.1.0",
+    "dom-js": "0.0.9",
+    "imagemagick": "~0.1.3",
+    "mkdirp": "~0.3.5",
+    "underscore": "~1.6.0"
+  }
+}
