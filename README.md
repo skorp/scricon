@@ -8,6 +8,7 @@ Generates Icons or Screen Images for Phonegap Build, from an existing image.
 $ npm install -g scricon
 ```
 * Imagemagick
+
 On Mac (HomeBrew)
 ```bash
 $ brew install imagemagick
