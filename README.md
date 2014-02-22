@@ -40,8 +40,8 @@ $ npm install
   Examples:
 
     $ scricon -c path/to/your/config.xml -t screen
-    $ scricon -c path/to/your/config.xml -i path/to/your/icon.png  -d path/to/your/destPath`-t icon
-    $ scricon -c path/to/your/config.xml -i path/to/your/screen.png  -d path/to/your/destPath`-t screen
+    $ scricon -c path/to/your/config.xml -i path/to/your/icon.png  -d path/to/your/destPath`-t icon //it's creating icons
+    $ scricon -c path/to/your/config.xml -i path/to/your/screen.png  -d path/to/your/destPath`-t screen //it's creating screen images
 
   Defaults:
 
