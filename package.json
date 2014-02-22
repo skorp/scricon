@@ -25,7 +25,7 @@
     "url": "https://github.com/skorp/scricon/issues"
   },
   "homepage": "https://github.com/skorp/scricon",
-  "devDependencies": {
+  "Dependencies": {
     "commander": "~2.1.0",
     "dom-js": "0.0.9",
     "imagemagick": "~0.1.3",
