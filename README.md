@@ -50,4 +50,4 @@ $ npm install
 		icon: 		icon.png
 		dest: 		phonegap/www/res/
 
-``
+```
