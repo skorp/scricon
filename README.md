@@ -15,7 +15,7 @@ $ brew install imagemagick
 ```
 
 On Ubuntu
-```bash
+``bash
 $ apt-get install imagemagick
 ```
 
@@ -26,9 +26,8 @@ $ npm install
 ```
 
 ```bash
-$ node index.js -h
 
-  Usage: index.js [options]
+  Usage: scricon [options]
 
   Options:
 
@@ -52,4 +51,4 @@ $ node index.js -h
 		icon: 		icon.png
 		dest: 		phonegap/www/res/
 
-``
+```
