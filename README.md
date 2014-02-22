@@ -15,7 +15,7 @@ $ brew install imagemagick
 ```
 
 On Ubuntu
-``bash
+```bash
 $ apt-get install imagemagick
 ```
 
