@@ -47,16 +47,19 @@ module.exports = {
             "size" : "48x48",
             "plattform" : "winphone",
             "filename" : "icon-48.png",
+            "folder" : "windows-phone"
         },
         {
             "size" : "62x62",
             "plattform" : "winphone",
             "filename" : "icon-62-tile.png",
+            "folder" : "windows-phone"
         },
         {
             "size" : "173x173",
             "plattform" : "winphone",
             "filename" : "icon-173-tile.png",
+            "folder" : "windows-phone"
         },
     ],
     directory :'icon',

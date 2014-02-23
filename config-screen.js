@@ -92,6 +92,7 @@ module.exports = {
             "size" : "480x800",
             "plattform" : "winphone",
             "filename" : "screen-portrait.jpg",
+            "folder" : "windows-phone"
         }
     ],
     directory :'screen',

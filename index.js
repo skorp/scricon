@@ -78,26 +78,29 @@ domjs.parse(loadConfig, function(err, dom) {
 
                 var iconName 	= path.basename(dom.children[i].attributes['src']);
                 var pl 			= dom.children[i].attributes[configs.platformAttribute];
-                var pathx 		= path.resolve(dPath,configs.directory,pl)
-                var destPath 	= path.resolve(pathx,iconName);
 
-                var platfromExists = _.some(configs.data, function (item) {
-                    return item.plattform == pl;
-                });
-                if(!platfromExists)
-                    continue;
+                var configData = _.findWhere(configs.data,{'filename':iconName})
+                if(typeof configData !== 'undefined') {
+                    var platfromExists = _.some(configs.data, function (item) {
+                        if(item.plattform == pl) return item;
 
-                try {
-                    var dirStat = fs.lstatSync(pathx);
-                } catch (e) {
-                    if(e.code == 'ENOENT') {
-                        mkdirp.sync(pathx);
+                        return false;
+                    });
+
+                    if(!platfromExists)
+                        continue;
+
+                    try {
+                        var pathx 		= typeof configData.folder == "undefined"  ? path.resolve(dPath,configs.directory,pl) : path.resolve(dPath,configs.directory,configData.folder);
+                        var destPath 	= path.resolve(pathx,iconName);
+                        var dirStat = fs.lstatSync(pathx);
+                    } catch (e) {
+                        if(e.code == 'ENOENT') {
+                            mkdirp.sync(pathx);
+                        }
                     }
-                }
 
-                var sizes = _.findWhere(configs.data,{'filename':iconName})
-                if(typeof sizes !== 'undefined') {
-                    sizes = sizes.size.split('x');
+                    sizes = configData.size.split('x');
                     try {
                         ig.resize({
                             srcPath: icon,

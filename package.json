@@ -1,6 +1,6 @@
 {
   "name": "scricon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generates Icons or Screen Images for Phonegap Build, from an existing image.",
   "main": "index.js",
   "scripts": {
